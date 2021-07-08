@@ -1,0 +1,101 @@
+.Get-Started{
+    position: relative;  
+    height: 450px;
+    margin-left: 250px;
+    padding: right 0;
+  }
+
+body {
+    top: 1%;
+    width: 100%;
+    max-width:960px; 
+    font-family: 'Times New Roman', Times, serif;
+    }
+    .image
+    {
+        height: 290px;
+        width: 340px;
+        position: absolute;
+        
+       
+    }
+    .small-para{
+        position:absolute;
+        font-size: 12px;
+        width: 300px;
+        height:160px;
+        position: absolute;
+        top:71%;
+        bottom: 50%;
+        left: 10%;
+        color:grey;
+    }
+    
+    .big-para{
+        position: absolute;
+        top: 55%;
+        left: 10%;
+        font-weight: bolder;
+        font-size: 23px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .main {
+        display: none;
+    }
+    
+    @media only screen and (min-width:768px){
+        body {
+            width: 100%;
+            max-width:960px;
+            margin: 0 auto; 
+            font-family: 'Times New Roman', Times, serif;
+        }
+            .image
+            {
+                position: absolute;
+                top: 20%;
+                bottom: 50%;
+                right: 25%;
+            }
+            .small-para{
+                text-align: left;
+                font-size: 15px;
+                float:left;
+                width: 300px;
+                height:160px; 
+                position: absolute;
+                top: 50%;
+                bottom: 50%;
+                left: 20%;
+                color:grey;
+            }
+            .main {
+                display:block ;
+                width: 100%;
+            }
+            .big-para{
+                text-align: left;
+                font-size: 35px;
+                float:left;
+                width: 330px;
+                height:160px;
+                background-color:white; 
+                border: black;
+                position: absolute;
+                top: 20%;
+                bottom: 50%;
+                left: 20%;  
+                font-weight: bold;  
+            }
+            .Get-Started{
+                right: 20%;
+                left: 50%;
+        }
+
+        .navbar-nav > li{
+            padding-left:30px;
+            padding-right:30px;
+          }
+    }
+    
